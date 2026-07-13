@@ -13,7 +13,7 @@
       setOpen(toggle.getAttribute('aria-expanded') !== 'true');
     });
     nav.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
-    window.addEventListener('resize', function () { if (window.innerWidth > 1024) setOpen(false); });
+    window.addEventListener('resize', function () { if (window.innerWidth > 1080) setOpen(false); });
   }
 
   /* ---- スクロールで各セクションをふわっと表示 ---- */
