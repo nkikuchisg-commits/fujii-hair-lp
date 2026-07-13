@@ -35,7 +35,7 @@
 .nav-cta svg { width: 15px; height: 15px; fill: currentColor; }
 .nav-cta--sub { background: #fff; color: var(--brand) !important; }
 .nav-cta--sub:hover { background: var(--brand-light); border-color: var(--brand); color: var(--brand-dark) !important; }
-@media (max-width: 1024px) { .nav-cta { background: none; border: 0; border-radius: 0; padding: 16px 20px; justify-content: flex-start; color: var(--brand) !important; } .nav-cta--sub { background: none; } }
+@media (max-width: 1080px) { .nav-cta { background: none; border: 0; border-radius: 0; padding: 16px 20px; justify-content: flex-start; color: var(--brand) !important; } .nav-cta--sub { background: none; } }
 
 .sec-head { margin-bottom: 44px; }
 .sec-head.center { text-align: center; }

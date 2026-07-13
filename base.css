@@ -112,8 +112,8 @@ input:focus, textarea:focus, select:focus {
   border-bottom: 1px solid var(--line);
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; min-height: 64px; }
-.nav ul { list-style: none; display: flex; gap: 24px; margin: 0; padding: 0; }
-.nav a { color: var(--text); font-weight: 500; }
+.nav ul { list-style: none; display: flex; gap: 16px; margin: 0; padding: 0; }
+.nav a { color: var(--text); font-weight: 500; white-space: nowrap; }
 
 .menu-toggle {
   display: none; width: var(--tap); height: var(--tap);
@@ -124,7 +124,7 @@ input:focus, textarea:focus, select:focus {
 .menu-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
 .menu-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
   .menu-toggle { display: block; }
   .nav {
     position: absolute; top: 100%; left: 0; right: 0;
